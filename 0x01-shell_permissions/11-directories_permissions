@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod Xa+w *
+chmod X,uga+w *
