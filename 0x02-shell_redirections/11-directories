@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alR | grep ^d | grep ^v "\.$" | wc -l
+ls -alR | grep ^d | grep -v "\.$" | wc -l
