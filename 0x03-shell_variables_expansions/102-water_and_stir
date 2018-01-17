@@ -1,0 +1,2 @@
+#!/bin/bash
+echo 5#$WATER | tr water 01234 | xargs echo 5#$STIR | tr "stir. " 01234+ | echo $((`xargs echo`)) | printf "%o" `xargs echo` | tr 01234567 behlnort | echo `xargs echo`
